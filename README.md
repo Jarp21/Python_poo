@@ -66,3 +66,10 @@ print(suma(10, 20))
 #### Getters y Setters
 
 Sirven para poder ver (get) y modificar (set) propiedades de una clase las cuales estan encapsuladas y no podemos acceder
+
+### Herencia
+Sirve para modelar jerarquias
+
+### Polimorfismo
+
+Es la habilidad de tomar varias formas

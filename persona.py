@@ -143,25 +143,52 @@ class dentro:
         print(cuenta1.get_moneda())
 
 
-class CasillaDeVotacion:
-    def __init__(self, identificador, pais):
-        self.__identificador = identificador
-        self.__pais = pais
-        self.__region = None
-    @property
-    def region(self):
-        return self.__region
-    @region.setter
-    def region(self, region):
-        if region in self.__region:
-            self.__region = region
-        else:
-            raise ValueError(f'La region {region} no es valida en {self.pais}')
+# class CasillaDeVotacion:
+#     def __init__(self, identificador, pais):
+#         self.__identificador = identificador
+#         self.__pais = pais
+#         self.__region = None
+#     @property
+#     def region(self):
+#         return self.__region
+#     @region.setter
+#     def region(self, region):
+#         if region in self.__region:
+#             self.__region = region
+#         else:
+#             raise ValueError(f'La region {region} no es valida en {self.pais}')
 
-class CasillaDentro:
-
-    pass
+# class CasillaDentro:
+#     casilla = CasillaDeVotacion(123, ['Ciudad de Mexico', 'Morelos'])
+#     casilla.region
     
+'Herencia'
+class Rectangulo:
+    def __init__(self, base, altura):
+        self.base = base
+        self.altura = altura
+
+    def area(self):
+        return self.base * self.altura
+class Cuadrado(Rectangulo):
+    def __init__(self, lado):
+        super().__init__(lado, lado)
+
+'Polimorfismo'
+class Persona:
+    def __init__(self, nombre):
+        self.nombre = nombre
+    def avanza(self):
+        print(f'soy {self.nombre}, ando caminando')
+class Ciclista(Persona):
+    def __init__(self, nombre):
+        super().__init__(nombre)
+    def avanza(self):
+        print(f'Soy {self.nombre}, ando moviendome en bicicleta')
+
+
+
+
 #Acciones
 class Accion:
     def persona():
@@ -171,24 +198,32 @@ class Accion:
 
         #Saludo
         print(david.saluda(erika))
-
     def coordenada():
         cor1 = coordenada(3, 30)
         cor2 = coordenada(4, 8)
         print(cor1.distancia(cor2))
         cor2 = coordenada(4, 8)
-
     def lavadora():
         Lavadora().lavar()
-
     def decoradores_suma():
         decoradores.ini_suma()
-
     def decoradores():
         print(decoradores.suma(10, 20))
-    
     def cuenta():
         dentro.acciones()
+    def casilla():
+        CasillaDentro
+    def figuras():
+        rectangulo = Rectangulo(base = 3, altura = 4)
+        print(rectangulo.area())
+        cuadrado = Cuadrado(lado = 5)
+        print(cuadrado.area())
+    def andando():
+        persona = Persona('David')
+        persona.avanza()
+        ciclista = Ciclista('Daniel')
+        ciclista.avanza()
+
 
 if __name__ == '__main__':
-    Accion.cuenta()
+    Accion.andando()
