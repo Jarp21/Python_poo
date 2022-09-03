@@ -7,8 +7,8 @@
 ---
 
 ## Lista de tareas
-* [x]Averigaur acerca de decoradores en python
-* [ ]Averiguar para que sirve el decorador @property
+* [x] Averigaur acerca de decoradores en python
+* [ ] Averiguar para que sirve el decorador @property
 
 ## Cosas aprendidas
 
