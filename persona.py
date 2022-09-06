@@ -186,9 +186,6 @@ class Ciclista(Persona):
     def avanza(self):
         print(f'Soy {self.nombre}, ando moviendome en bicicleta')
 
-
-
-
 #Acciones
 class Accion:
     def persona():

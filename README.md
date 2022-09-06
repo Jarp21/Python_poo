@@ -9,6 +9,7 @@
 ## Lista de tareas
 * [x] Averigaur acerca de decoradores en python
 * [ ] Averiguar para que sirve el decorador @property
+* [ ] Averiguar acerca de Big O
 
 ## Cosas aprendidas
 
@@ -73,3 +74,21 @@ Sirve para modelar jerarquias
 ### Polimorfismo
 
 Es la habilidad de tomar varias formas
+
+## Notacion asintotica
+### Crecimiento asintotico
+
+Es el como las cosas se van hacia el infinito
+
+* Big O notation, sirve para ver el mayor de los casos
+    * En Big O solo  nos importa el termino independiente desconectado con mayor valor
+
+### Clases de complejidad algoritmica
+
+* O(1) Constante
+* O(n) Lineal
+* O(Log n) Logaritmica
+* O(n Log n) Log lineal
+* O(n**2) Polinomial
+* O(2**n) Exponencial
+* O(n!) Factorial
