@@ -3,6 +3,7 @@ def busqueda_lineal(lista, objetivo):
     match = False
 
     for elemento in lista:
+        print(1)
         if elemento == objetivo:
             match = True
             break
