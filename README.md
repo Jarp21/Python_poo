@@ -92,3 +92,14 @@ Es el como las cosas se van hacia el infinito
 * O(n**2) Polinomial
 * O(2**n) Exponencial
 * O(n!) Factorial
+
+### Busqueda lineal
+Trata de tomar cada conceptoopr si solo
+* Es buena si se usa una o pocas veces
+
+### Busqueda binaria
+
+> Divide y venceras
+Trata de tomar un problema e la forma mas simple posible
+* divide en 2 en cada iteracion
+* Asimila que la lista esta ordenada
