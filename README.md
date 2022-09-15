@@ -10,6 +10,7 @@
 * [x] Averigaur acerca de decoradores en python
 * [ ] Averiguar para que sirve el decorador @property
 * [ ] Averiguar acerca de Big O
+* [ ] Buscar mas acerca del ordenamiento por mezcla
 
 ## Cosas aprendidas
 
@@ -103,3 +104,31 @@ Trata de tomar cada conceptoopr si solo
 Trata de tomar un problema e la forma mas simple posible
 * divide en 2 en cada iteracion
 * Asimila que la lista esta ordenada
+
+### Ordenamiento de burbuja
+#### O(n ** 2)
+Algoritmo que recorre una lista para organizarla
+
+### Ordenamiento por mezcla
+Divide la lista en subfactores hasta que son listas de 1 y las compara
+
+## Ambientes virtuales
+
+Permite probar paquetes o versiones y nos permite no contaminer nuestro ambiente global
+
+### pip
+
+Es una seccion de librerias que pueden ser descargadas para distintos usos
+
+#### Comandos utiles con pip
+SS
+* python -m venv name ~~Creacion~~
+* env/bin/activate ~~Activa~~
+* source env/bin/activate ~~Entrada~~
+* pip install name ~~Instalacion de librerias~~
+* pip freeze  ~~Sirve ;ara ver lo instalado~~
+* deactivate ~~Sale del ambiente virtual~~
+
+## Graficado con Bokeh
+
+Es una libreria que tiene muchas utilidades y se deja exportar a html o dentro de django
