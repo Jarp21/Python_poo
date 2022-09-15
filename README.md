@@ -11,6 +11,7 @@
 * [ ] Averiguar para que sirve el decorador @property
 * [ ] Averiguar acerca de Big O
 * [ ] Buscar mas acerca del ordenamiento por mezcla
+* [ ] Mirar de nuevo el video 23
 
 ## Cosas aprendidas
 
